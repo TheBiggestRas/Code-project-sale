@@ -130,8 +130,7 @@ h2 {
 }
 
 .environments h3 {
-    margin-left: 400px;
-    margin-bottom: 50px;
+    margin: 50px 0 40px 400px;
     font-size: 30px;
 }
 
@@ -309,4 +308,19 @@ h2 {
     border-radius: 4px;
     font-size: 14px;
     line-height: 13px;
+}
+
+/*---------------------
+-------OTHER-----------
+-----------------------*/
+
+.other h3 {
+    margin: 50px 0 40px 400px;
+    font-size: 30px;
+}
+
+.other-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

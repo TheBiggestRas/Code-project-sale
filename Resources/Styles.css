@@ -314,6 +314,10 @@ h2 {
 -------OTHER-----------
 -----------------------*/
 
+.other {
+    margin-bottom: 100px;
+}
+
 .other h3 {
     margin: 50px 0 40px 400px;
     font-size: 30px;
@@ -323,4 +327,56 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tp {
+    margin-right: 20px;
+    height: 100px;
+    width: 250px;
+    border: 1px solid;
+    box-shadow: 0px 2px 2px grey;
+    border-radius: 4px;
+}
+
+.pc {
+    margin-right: 20px;
+    height: 100px;
+    width: 250px;
+    border: 1px solid;
+    box-shadow: 0px 2px 2px grey;
+    border-radius: 4px;
+}
+
+.tp-header {
+    border-bottom: 1px solid grey;
+}
+
+.tp-header h4 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.tp-main {
+    display: inline-block;
+    margin  : 15px 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
+}
+
+.pc-header {
+    border-bottom: 1px solid grey;
+}
+
+.pc-header h4 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.pc-main {
+    display: inline-block;
+    margin  : 15px 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
 }

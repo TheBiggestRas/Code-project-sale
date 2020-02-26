@@ -130,8 +130,7 @@ h2 {
 }
 
 .environments h3 {
-    margin-left: 400px;
-    margin-bottom: 50px;
+    margin: 50px 0 40px 400px;
     font-size: 30px;
 }
 
@@ -177,6 +176,8 @@ h2 {
 }
 
 .status {
+    font-weight: 400;
+    text-transform: uppercase;
     display: inline-block;
     margin-top: 30px;
     background-color: #AAFFB2;
@@ -194,7 +195,7 @@ h2 {
 -----------------------*/
 
 .repositories h3 {
-    margin: 50px 0 40px 377px;
+    margin: 50px 0 40px 400px;
     font-size: 30px;
 }
 
@@ -227,10 +228,99 @@ h2 {
     border-bottom: 1px solid grey;
     font-size: 20px;
 }
-.repository-information ion-icon {
+.icon {
     font-size: 20px;
-    padding: 13px 20px;
+    padding: 9px 20px;
     border: 1px solid grey;
     border-radius: 4px;
-    margin-top: 4px;
+
+}
+
+/*---------------------
+-------TEAM------------
+-----------------------*/
+
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.team h3 {
+    margin: 50px 0 40px 400px;
+    font-size: 30px;
+}
+
+.pm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pm img {
+    height: 150px;
+}
+
+.dev img {
+    height: 150px;
+}
+
+.dev {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.about h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.position-pm {
+    font-weight: 300;
+    margin-left: 10px;
+    color: #FFFFFF;
+    padding: 7px 30px;
+    background-color: #0984E3;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.position-dev {
+    font-weight: 300;
+    margin-left: 10px;
+    color: #FFFFFF;
+    padding: 7px 30px;
+    background-color: #00B894;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+/*---------------------
+-------OTHER-----------
+-----------------------*/
+
+.other h3 {
+    margin: 50px 0 40px 400px;
+    font-size: 30px;
+}
+
+.other-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

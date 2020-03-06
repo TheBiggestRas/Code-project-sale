@@ -160,6 +160,10 @@ section {
     box-shadow: 0 1px 0 grey;
 }
 
+.branch-icon {
+    align-self: flex-start;
+}
+
 .branch-box-header h4 {
     margin: 0px 0 10px 10px;
     font-size: 25px;

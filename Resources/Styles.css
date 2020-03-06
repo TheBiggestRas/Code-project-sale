@@ -21,9 +21,7 @@ h2 {
     text-transform: uppercase;
 }
 
-h2,
 h3 {
-    margin: 50px 0 40px 400px;
     font-size: 30px; 
 }
 
@@ -82,13 +80,17 @@ h3 {
     border-radius: 4px;
 }
 
+.main-des h2 {
+    margin-bottom: 40px;
+}
+
 .main-description { 
     font-size: 22px;
     line-height: 130%;
     font-weight: normal;
 
     display: inline-block;
-    max-width: 40%;
+    max-width: 26%;
     margin: 50px 0 0 30px;
 }
 

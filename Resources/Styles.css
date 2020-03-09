@@ -156,12 +156,16 @@ section {
 }
 
 .branch-box-header {
+    display: flex;
     border-bottom: 1px solid grey;
     box-shadow: 0 1px 0 grey;
 }
 
 .branch-icon {
-    align-self: flex-start;
+    margin: 0 10px 15px auto;
+
+    height: 30px;
+    width: 30px;
 }
 
 .branch-box-header h4 {
@@ -231,7 +235,6 @@ section {
     font-size: 20px;
 }
 .icon {
-    font-size: 20px;
     padding: 9px 20px;
     border: 1px solid grey;
     border-radius: 4px;
@@ -338,7 +341,13 @@ section {
 }
 
 .tp-header {
+    display: flex;
+
     border-bottom: 1px solid grey;
+}
+
+.other-icon {
+    margin: 0 15px 0 auto;
 }
 
 .tp-header h4 {
@@ -355,6 +364,8 @@ section {
 }
 
 .pc-header {
+    display: flex;
+
     border-bottom: 1px solid grey;
 }
 
